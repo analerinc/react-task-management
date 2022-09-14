@@ -1,0 +1,32 @@
+.NewTaskPage {
+    padding: 20px;
+    background-color: f1f5f9;
+    height: 100vh;
+
+    .form {
+        margin-top: 50px;
+        flex-direction: column;
+        display: flex;
+        gap: 20px;
+
+        textarea {
+            width: 500px;
+            border: 2px solid black;
+            height: 150px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+    }
+
+    .input {
+        width: 500px;
+        border: 2px solid black;
+        height: 50px;
+    }
+
+    .btn {
+        height: 50px;
+        border: 2px solid black;
+        width: 200px !important;
+    }
+}

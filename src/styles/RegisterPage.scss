@@ -1,0 +1,29 @@
+.registerPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        padding: 60px;
+        border-radius: 10px;
+        border: 2px solid white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        color: white;
+        margin-bottom: 40px;
+    }
+
+    .registerLink {
+        color: white;
+        margin-top: 20px;
+
+    }
+}
